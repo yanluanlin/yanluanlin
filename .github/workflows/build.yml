@@ -16,9 +16,11 @@ on:
   # Allow manual trigger for testing
   workflow_dispatch:
 
-# Read-only permissions for security
+# Permissions required to configure and upload the GitHub Pages artifact.
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 # Prevent duplicate builds for the same PR
 concurrency:
@@ -125,6 +127,8 @@ jobs:
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5
+      with:
+        enablement: true
 
     - name: Build with Hugo
       env:
