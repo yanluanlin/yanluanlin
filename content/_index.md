@@ -13,21 +13,21 @@ sections:
       text: |-
         ![Earth system modeling visualization](media/research-hero.png)
 
-        We study the physics and predictability of the atmosphere through weather and climate modeling. Our work focuses on cloud and precipitation processes, atmospheric physical parameterizations, tropical cyclones, and Earth system model development.
+        We study the physics and predictability of the atmosphere through weather and climate modeling. Our work connects process understanding, model development, and prediction systems for clouds, precipitation, tropical cyclones, and climate variability.
 
-        [Official Tsinghua Faculty Profile](http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm)
+        The group develops numerical models and data-informed diagnostics to better understand high-impact weather and climate processes, with an emphasis on rigorous physical interpretation and useful prediction.
     design:
       columns: '1'
       spacing:
-        padding: [4rem, 0, 4rem, 0]
+        padding: [5rem, 0, 4rem, 0]
 
   - block: markdown
     id: research
     content:
-      title: Research
+      title: Research Interests
       subtitle: Weather, climate, clouds, precipitation, and tropical cyclones
       text: |-
-        The group develops and applies numerical models to understand atmospheric processes and climate variability. Current research directions include:
+        Current research directions include:
 
         - Weather and climate modeling
         - Cloud and precipitation microphysics
@@ -35,6 +35,8 @@ sections:
         - Global and regional precipitation simulation
         - Tropical cyclone structure, intensity, and climate response
         - Earth system model development
+
+        We are particularly interested in how process-level atmospheric physics shape predictability across weather and climate timescales.
     design:
       columns: '1'
 
@@ -61,26 +63,16 @@ sections:
         shape: circle
 
   - block: markdown
-    id: team
-    content:
-      title: Group
-      subtitle: Students and collaborators
-      text: |-
-        The group trains students and researchers interested in atmospheric science, climate dynamics, numerical modeling, and data-informed analysis of weather and climate extremes.
-
-        Student and alumni profiles will be added as the website grows.
-    design:
-      columns: '1'
-
-  - block: markdown
     id: contact
     content:
       title: Contact
       subtitle: Department of Earth System Science, Tsinghua University
       text: |-
-        For formal contact details and the latest academic information, please use the official Tsinghua faculty profile linked below.
+        Email: [yanluan@tsinghua.edu.cn](mailto:yanluan@tsinghua.edu.cn)
 
-        [Official Tsinghua Faculty Profile](http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm)
+        Office and formal faculty information are available through the official Tsinghua profile.
+
+        [Official Tsinghua Faculty Profile](http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm) · [Google Scholar](https://scholar.google.com/citations?user=WYyB7wYAAAAJ&hl=zh-CN&oi=ao)
     design:
       columns: '1'
 ---

@@ -22,6 +22,12 @@ affiliations:
     url: https://www.dess.tsinghua.edu.cn/
 
 links:
+  - icon: at-symbol
+    url: mailto:yanluan@tsinghua.edu.cn
+    label: Email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=WYyB7wYAAAAJ&hl=zh-CN&oi=ao
+    label: Google Scholar
   - icon: hero/link
     url: http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm
     label: Official Tsinghua Profile

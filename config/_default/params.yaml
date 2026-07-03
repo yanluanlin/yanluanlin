@@ -33,27 +33,27 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
+      primary: "#660874" # Tsinghua purple
+      secondary: "#B08A2E"
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
     # Optional: Semantic surface color overrides
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#FBF8FC"
+      foreground: "#24132E"
       header:
-        background: ""
-        foreground: ""
+        background: "#FFFBFF"
+        foreground: "#24132E"
       footer:
-        background: ""
-        foreground: ""
+        background: "#2A0A35"
+        foreground: "#F8F1FA"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
@@ -89,7 +89,7 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: false
-    theme_toggle: true
+    theme_toggle: false
     theme_picker: false
     language_switcher: false
     # Call-to-action button

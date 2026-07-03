@@ -5,17 +5,14 @@
 
 main:
   - name: Home
-    url: /#home
+    url: /
     weight: 10
-  - name: Research
-    url: /#research
+  - name: Publications
+    url: /publications/
     weight: 20
-  - name: PI
-    url: /#pi
+  - name: Group members
+    url: /group-members/
     weight: 30
-  - name: Group
-    url: /#team
+  - name: Resources&News
+    url: /resources-news/
     weight: 40
-  - name: Contact
-    url: /#contact
-    weight: 50
