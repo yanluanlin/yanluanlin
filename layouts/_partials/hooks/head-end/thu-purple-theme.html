@@ -40,21 +40,29 @@
 
   header,
   nav {
-    border-bottom-color: var(--yl-border) !important;
-    background-color: rgba(255, 251, 255, 0.92) !important;
+    border-bottom-color: rgba(255, 255, 255, 0.16) !important;
+    background:
+      linear-gradient(90deg, var(--yl-purple-deep) 0%, var(--yl-purple) 58%, var(--yl-purple-mid) 100%) !important;
+    background-color: var(--yl-purple) !important;
     backdrop-filter: blur(18px);
+    box-shadow: 0 12px 34px rgba(42, 10, 53, 0.18);
   }
 
   nav a,
   header a {
-    color: var(--yl-ink) !important;
+    color: #fff7ff !important;
   }
 
   nav a:hover,
   header a:hover,
   nav a[aria-current="page"],
   header a[aria-current="page"] {
-    color: var(--yl-purple) !important;
+    color: #f2d27b !important;
+  }
+
+  header svg,
+  nav svg {
+    color: #fff7ff !important;
   }
 
   main > section {
@@ -100,36 +108,36 @@
 
   .prose,
   .max-w-prose {
-    max-width: 92ch !important;
+    max-width: 108ch !important;
   }
 
   .container {
-    width: min(100% - 2rem, 1180px) !important;
+    width: min(100% - 2rem, 1360px) !important;
   }
 
   .max-w-3xl,
   .max-w-4xl {
-    max-width: 76rem !important;
+    max-width: 88rem !important;
   }
 
   .max-w-5xl,
   .max-w-6xl,
   .max-w-7xl {
-    max-width: 86rem !important;
+    max-width: 96rem !important;
   }
 
   @media (min-width: 1024px) {
     .lg\:max-w-4xl,
     .lg\:max-w-5xl,
     .lg\:max-w-6xl {
-      max-width: 82rem !important;
+      max-width: 94rem !important;
     }
   }
 
   @media (min-width: 1280px) {
     .xl\:max-w-6xl,
     .xl\:max-w-7xl {
-      max-width: 88rem !important;
+      max-width: 100rem !important;
     }
   }
 
