@@ -203,14 +203,18 @@
 
   .yl-member-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: minmax(0, 1fr);
     gap: 1.4rem;
+    max-width: 1120px;
     margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .yl-member-card {
     display: grid;
-    grid-template-columns: minmax(190px, 0.44fr) 1fr;
+    grid-template-columns: minmax(220px, 0.34fr) minmax(0, 1fr);
+    width: 100%;
     overflow: hidden;
     min-height: 310px;
     background: rgba(255, 255, 255, 0.96);
