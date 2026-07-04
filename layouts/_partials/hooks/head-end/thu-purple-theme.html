@@ -38,8 +38,8 @@
     text-decoration-color: var(--yl-gold);
   }
 
-  header,
-  nav {
+  #site-header,
+  #site-header nav {
     border-bottom-color: rgba(255, 255, 255, 0.16) !important;
     background:
       linear-gradient(90deg, var(--yl-purple-deep) 0%, var(--yl-purple) 58%, var(--yl-purple-mid) 100%) !important;
@@ -48,20 +48,16 @@
     box-shadow: 0 12px 34px rgba(42, 10, 53, 0.18);
   }
 
-  nav a,
-  header a {
+  #site-header a {
     color: #fff7ff !important;
   }
 
-  nav a:hover,
-  header a:hover,
-  nav a[aria-current="page"],
-  header a[aria-current="page"] {
+  #site-header a:hover,
+  #site-header a[aria-current="page"] {
     color: #f2d27b !important;
   }
 
-  header svg,
-  nav svg {
+  #site-header svg {
     color: #fff7ff !important;
   }
 
@@ -173,6 +169,291 @@
   .border-primary-500,
   .border-primary-600 {
     border-color: var(--yl-purple) !important;
+  }
+
+  body :is(a, button)[class*="bg-primary"],
+  body :is(a, button)[class*="from-primary"],
+  body :is(a, button)[class*="to-primary"],
+  body a[href="http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm"][class*="rounded"],
+  body a[href="http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm"][class*="inline-flex"] {
+    background-color: var(--yl-purple) !important;
+    background-image:
+      linear-gradient(135deg, var(--yl-purple) 0%, var(--yl-purple-mid) 58%, #7a611d 100%) !important;
+    color: #fff7ff !important;
+    text-decoration: none !important;
+  }
+
+  body :is(a, button)[class*="bg-primary"] svg,
+  body :is(a, button)[class*="from-primary"] svg,
+  body :is(a, button)[class*="to-primary"] svg,
+  body a[href="http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm"][class*="rounded"] svg,
+  body a[href="http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm"][class*="inline-flex"] svg {
+    color: #fff7ff !important;
+    stroke: currentColor !important;
+  }
+
+  body :is(a, button)[class*="bg-primary"]:hover,
+  body :is(a, button)[class*="from-primary"]:hover,
+  body :is(a, button)[class*="to-primary"]:hover,
+  body a[href="http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm"][class*="rounded"]:hover,
+  body a[href="http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm"][class*="inline-flex"]:hover {
+    color: #ffffff !important;
+    filter: saturate(1.06) brightness(1.03);
+  }
+
+  .yl-member-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.4rem;
+    margin-top: 2rem;
+  }
+
+  .yl-member-card {
+    display: grid;
+    grid-template-columns: minmax(190px, 0.44fr) 1fr;
+    overflow: hidden;
+    min-height: 310px;
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid var(--yl-border);
+    border-radius: 8px;
+    box-shadow: 0 18px 48px rgba(42, 10, 53, 0.11);
+  }
+
+  .yl-member-photo {
+    display: block;
+    min-height: 310px;
+    background: #e9edf0;
+  }
+
+  .yl-member-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 310px;
+    object-fit: cover;
+    object-position: 61% 42%;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .yl-member-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(1.25rem, 3vw, 2rem);
+  }
+
+  .yl-member-role,
+  .yl-profile-role {
+    margin: 0 0 0.5rem;
+    color: #7a611d;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .yl-member-card h3 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.45rem, 2vw, 1.9rem);
+    line-height: 1.15;
+  }
+
+  .yl-member-card h3 a {
+    color: var(--yl-purple-deep);
+    text-decoration: none;
+  }
+
+  .yl-member-card h3 a:hover {
+    color: var(--yl-purple);
+    text-decoration: underline;
+    text-decoration-color: var(--yl-gold);
+  }
+
+  .yl-member-card p {
+    margin: 0 0 1rem;
+    color: var(--yl-ink);
+    line-height: 1.65;
+  }
+
+  .yl-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .yl-tag-list span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.34rem 0.66rem;
+    border: 1px solid rgba(15, 91, 105, 0.16);
+    border-radius: 999px;
+    background: #edf7f8;
+    color: #174c57;
+    font-size: 0.84rem;
+    font-weight: 650;
+    line-height: 1.25;
+  }
+
+  .yl-profile-hero {
+    display: grid;
+    grid-template-columns: minmax(210px, 280px) minmax(0, 1fr);
+    gap: clamp(1.15rem, 3vw, 2rem);
+    align-items: start;
+    margin: 1.5rem 0 2.25rem;
+    padding: clamp(1rem, 2.6vw, 1.6rem);
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid var(--yl-border);
+    border-radius: 8px;
+    box-shadow: 0 18px 48px rgba(42, 10, 53, 0.1);
+  }
+
+  .yl-profile-hero img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 61% 42%;
+    border-radius: 8px;
+    box-shadow: none !important;
+  }
+
+  .yl-profile-affiliation {
+    margin: 0 0 1rem;
+    color: var(--yl-muted);
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.5;
+  }
+
+  .yl-profile-summary {
+    margin: 0;
+    color: var(--yl-ink);
+    font-size: 1rem;
+    line-height: 1.68;
+  }
+
+  .yl-profile-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.35rem;
+  }
+
+  .yl-profile-actions a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.6rem;
+    padding: 0.62rem 1rem;
+    border-radius: 8px;
+    background: var(--yl-purple);
+    color: #fff7ff !important;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 12px 28px rgba(102, 8, 116, 0.2);
+  }
+
+  .yl-profile-actions a:hover {
+    background: var(--yl-purple-mid);
+    color: #ffffff !important;
+  }
+
+  .prose .yl-publications-page ~ h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
+    color: var(--yl-purple-deep);
+    font-size: clamp(1.28rem, 1.8vw, 1.62rem);
+  }
+
+  .prose .yl-publications-page ~ h3::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(102, 8, 116, 0.26), rgba(176, 138, 46, 0));
+  }
+
+  .prose .yl-publications-page ~ ol {
+    list-style: none;
+    counter-reset: pub;
+    display: grid;
+    gap: 0.78rem;
+    padding-left: 0;
+    margin: 0 0 1.2rem;
+  }
+
+  .prose .yl-publications-page ~ ol > li {
+    counter-increment: pub;
+    position: relative;
+    margin: 0;
+    padding: 1rem 1.1rem 1rem 3.45rem;
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(102, 8, 116, 0.12);
+    border-left: 4px solid rgba(176, 138, 46, 0.72);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(42, 10, 53, 0.07);
+    color: var(--yl-ink);
+    line-height: 1.68;
+  }
+
+  .prose .yl-publications-page ~ ol > li::before {
+    content: counter(pub);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: grid;
+    place-items: center;
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: 999px;
+    background: #edf7f8;
+    color: #174c57;
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  .prose .yl-publications-page ~ ol > li strong {
+    color: var(--yl-purple-deep);
+  }
+
+  .prose .yl-publications-page ~ ol > li em {
+    color: #39424e;
+  }
+
+  @media (max-width: 780px) {
+    .yl-member-card,
+    .yl-profile-hero {
+      grid-template-columns: 1fr;
+    }
+
+    .yl-member-photo,
+    .yl-member-photo img {
+      min-height: 360px;
+    }
+
+    .yl-profile-hero img {
+      max-height: 520px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .yl-member-photo,
+    .yl-member-photo img {
+      min-height: 300px;
+    }
+
+    .prose .yl-publications-page ~ ol > li {
+      padding: 0.95rem 0.95rem 0.95rem 3.1rem;
+    }
+
+    .prose .yl-publications-page ~ ol > li::before {
+      left: 0.82rem;
+    }
   }
 
   footer {

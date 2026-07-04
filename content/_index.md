@@ -11,7 +11,7 @@ sections:
       title: Yanluan Lin Research Group
       subtitle: Department of Earth System Science, Tsinghua University
       text: |-
-        ![Earth system modeling visualization](media/research-hero.png)
+        <img src="media/research-hero.png" alt="Earth system modeling visualization">
 
         We study the physics and predictability of the atmosphere through weather and climate modeling. Our work connects process understanding, model development, and prediction systems for clouds, precipitation, tropical cyclones, and climate variability.
 
