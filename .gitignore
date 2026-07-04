@@ -1,6 +1,11 @@
 # Existing local starter copy kept for reference.
 hugo-theme-academic-cv-main/
 
+# Local source materials used to update the site
+yanlunalin_publications.txt
+news/
+group_members/ssc/
+
 # Hugo build artifacts
 public/
 resources/
