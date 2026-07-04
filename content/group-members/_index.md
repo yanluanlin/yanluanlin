@@ -14,7 +14,7 @@ sections:
 
         <div class="yl-member-grid">
           <article class="yl-member-card">
-            <a class="yl-member-photo" href="haoyu-tong/" aria-label="Haoyu Tong profile">
+            <a class="yl-member-photo yl-member-photo--haoyu" href="haoyu-tong/" aria-label="Haoyu Tong profile">
               <img src="../media/group-members/haoyu-tong-profile.jpg" alt="Haoyu Tong">
             </a>
             <div class="yl-member-card-body">
@@ -25,6 +25,22 @@ sections:
                 <span>Precipitation extremes</span>
                 <span>MCSs and tropical cyclones</span>
                 <span>AI weather forecasting</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="yl-member-card">
+            <a class="yl-member-photo yl-member-photo--sun" href="https://sunmoumou1.github.io/" aria-label="Sencan Sun personal website">
+              <img src="../media/group-members/sencan-sun-profile.jpg" alt="Sencan Sun">
+            </a>
+            <div class="yl-member-card-body">
+              <p class="yl-member-role">Ph.D. Student</p>
+              <h3><a href="https://sunmoumou1.github.io/">Sencan Sun (孙森灿)</a></h3>
+              <p>Works on AI for operational forecasting, spanning data assimilation, medium-range weather prediction, subseasonal-to-seasonal forecasting, and climate projection.</p>
+              <div class="yl-tag-list" aria-label="Research interests">
+                <span>AI operational forecasting</span>
+                <span>Data assimilation</span>
+                <span>Weather and S2S prediction</span>
               </div>
             </div>
           </article>

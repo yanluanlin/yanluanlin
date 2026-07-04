@@ -63,6 +63,35 @@ sections:
         shape: circle
 
   - block: markdown
+    id: faculty-mentor
+    content:
+      title: Faculty Mentor
+      subtitle: Group co-mentor
+      text: |-
+        <article class="yl-mentor-card">
+          <a class="yl-mentor-photo" href="http://faculty.dess.tsinghua.edu.cn/dongwenhao/zh_CN/index.htm" aria-label="Wenhao Dong official profile">
+            <img src="media/group-members/wenhao-dong-profile.png" alt="Wenhao Dong">
+          </a>
+          <div class="yl-mentor-content">
+            <p class="yl-member-role">Assistant Professor</p>
+            <h3><a href="http://faculty.dess.tsinghua.edu.cn/dongwenhao/zh_CN/index.htm">Wenhao Dong (董文浩)</a></h3>
+            <p class="yl-profile-affiliation">Department of Earth System Science, Tsinghua University</p>
+            <p>Wenhao Dong works on Earth system model development and diagnosis, precipitation variability across scales, regional climate-change attribution, compound extremes, weather-system tracking algorithms, and machine learning for weather and climate analysis.</p>
+            <div class="yl-mentor-meta">
+              <span>Ph.D. Atmospheric Science, Tsinghua University</span>
+              <span>Former project scientist at NOAA/GFDL</span>
+            </div>
+            <div class="yl-profile-actions">
+              <a href="http://faculty.dess.tsinghua.edu.cn/dongwenhao/zh_CN/index.htm">Official Profile</a>
+              <a href="https://scholar.google.com/citations?hl=en&amp;user=0QWGZ1sAAAAJ">Google Scholar</a>
+              <a href="https://orcid.org/0000-0002-5662-5435">ORCID</a>
+            </div>
+          </div>
+        </article>
+    design:
+      columns: '1'
+
+  - block: markdown
     id: contact
     content:
       title: Contact
@@ -72,7 +101,7 @@ sections:
 
         Office and formal faculty information are available through the official Tsinghua profile.
 
-        [Official Tsinghua Faculty Profile](http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm) · [Google Scholar](https://scholar.google.com/citations?user=WYyB7wYAAAAJ&hl=zh-CN&oi=ao)
+        [Official Tsinghua Faculty Profile](http://faculty.dess.tsinghua.edu.cn/linyanluan/en/index.htm) · [Google Scholar](https://scholar.google.com/citations?user=WYyB7wYAAAAJ&hl=zh-CN&oi=ao) · [ResearchGate](https://www.researchgate.net/profile/Yanluan-Lin?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19)
     design:
       columns: '1'
 ---
