@@ -25,6 +25,10 @@ Despite several decades of research to improve climate models, systematic biases
 
 The study further reveals a robust linear relationship between the projected warming and the present-day warm bias, which is used to empirically correct future temperature projections. By the end of the 21st century under the RCP8.5 scenario, the corrections substantially narrow the intermodel spread of the projections and reduce the projected temperature by 2.5 K, resulting mainly from the removal of the warm bias. Instead of a sharp decrease, after this correction the projected precipitation is nearly neutral for all scenarios. Meanwhile, the correction leads to much narrower spread of future changes among the models than directly simulated by the models, which can have important implications for appropriate decision makings.
 
+<figure class="yl-news-figure">
+  <img src="../../media/news/central-us-dry-warm-bias/figure-1.png" alt="美国中部气候模式暖偏差与干偏差关系及季节循环">
+</figure>
+
 a. 全球气候模式暖偏差（纵坐标）与干偏差（横坐标）之间的关系。
 
 b. 5个干暖偏差最小气候模式（a中实线框）温度（红色）与降水（蓝色）的季节循环。
@@ -36,6 +40,10 @@ a. Scatter plot of the summertime temperature bias and precipitation bias over t
 b. Seasonal evolution of temperature and precipitation biases for the good group. The solid circle contains the models selected as good group.
 
 c. Same as b but for the bad group. The dash circle contains the models selected as bad group.
+
+<figure class="yl-news-figure">
+  <img src="../../media/news/central-us-dry-warm-bias/figure-2.png" alt="美国大平原未来温度预估订正前后比较">
+</figure>
 
 a. 全球气候模式三种排放情景订正前（蓝色）与订正后（红色）未来预估美国大平原地区的温度变化。
 

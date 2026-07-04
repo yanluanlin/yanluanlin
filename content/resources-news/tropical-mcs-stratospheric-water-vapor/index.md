@@ -15,6 +15,10 @@ date: 2020-02-21
 
 <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019GL086320>
 
+<figure class="yl-news-figure">
+  <img src="../../media/news/tropical-mcs-stratospheric-water-vapor/figure-1.png" alt="中太平洋厄尔尼诺、沃克环流与热带中尺度对流系统示意图">
+</figure>
+
 > **图1：** 中太平洋厄尔尼诺的海温异常及其导致的沃克环流改变，更多热带中太平洋中尺度对流系统导致对流层顶温度降低，减少进入平流层低层的水汽。
 
 该工作第一作者为地学系博士生董文浩（目前为美国普林斯顿大学-NOAA GFDL博士后），通讯作者地学系林岩銮教授，合作者包括美国纽约石溪大学张明华教授和地学系黄小猛副教授。
