@@ -19,7 +19,6 @@ sections:
       title: Blogs
       text: |-
         <div class="yl-blog-section">
-          <p class="yl-section-lede">Research stories and news from the group, from tropical cyclones and mesoscale convection to climate model development and Tibetan Plateau hydroclimate.</p>
           <div class="yl-blog-grid" aria-label="Research blogs">
             <a class="yl-blog-card" href="tropical-cyclone-intensification-lmi/">
               <span class="yl-blog-label">Tropical Cyclones</span>
